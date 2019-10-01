@@ -1,0 +1,222 @@
+/* Accent Orange color: #f0932b 
+ Dark Gray: #3d3d3d
+ White: #ffffff
+ Montserrat font
+ Bold headline
+ Subhead Semi-bold
+ Title Medium
+ 
+ Domine Medium body
+*/
+html {
+	font-family: 'Domine', serif;
+}
+
+body {
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #3d3d3d;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+	padding-top: 15px;
+}
+
+collapse navbar-collapse, .logo-image {
+	position: absolute;
+}
+
+#navbarNavAltMarkup>div>a:nth-child(n), .logo-image {
+	display: inline-block;
+}
+
+.navbar-brand:hover {
+	color: #f0932b;
+}
+
+#navbarNavAltMarkup>div>a:nth-child(n):hover {
+	color: #f0932b;
+}
+
+#navbarNavAltMarkup>div, .navbar-nav>active {
+	width: 500px;
+	background: none;
+}
+
+.navbar-nav>active {
+	background: none;
+}
+
+#navbarNavAltMarkup>div>a:nth-child(n) {
+	padding-left: 9px;
+}
+
+#navbarNavAltMarkup>div {
+	padding-top: 15px;
+}
+
+th {
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 8px;
+}
+
+body>form:nth-child(7)>input[type=submit]:nth-child(4) {
+	padding-top: 5px;
+}
+
+body>div.brewery-list>div:nth-child(n)>div>h2>a, .btn-primary {
+	background-color: #f0932b;
+	margin-bottom: 10px;
+}
+
+body>div.brewery-list>div:nth-child(n)>div>div.alert.alert-success {
+	background-color: #F5F5F5;
+}
+
+body>div.brewery-list>div:nth-child(n)>div>div.alert.alert-success>i {
+	color: #3d3d3d;
+}
+
+.well>i {
+	color: #3d3d3d;
+	font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6, a, u, i, p, .address, form, footer, #text {
+	color: #fff;
+}
+
+u {
+	padding-top: 10px;
+}
+
+body>div.beer-reviews>div>div:nth-child(n)>form>input[type=submit]:nth-child(n),
+	body>form>input[type=submit]:nth-child(n) {
+	background-color: #f0932b;
+	border: none;
+	color: white;
+	padding: 3px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}
+
+#editBrewery>input[type=submit]:nth-child(n) {
+	background-color: #f0932b;
+	border: none;
+	color: white;
+	padding: 3px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 7px;
+	margin-top: 10px;
+}
+
+body>div.beer-review-form>form>input[type=submit]:nth-child(n),
+	#editBeer>input[type=submit] {
+	background-color: #f0932b;
+	border: none;
+	color: white;
+	padding: 3px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}
+
+body>form:nth-child(8)>input[type=file]:nth-child(1)
+#editBrewery>table {
+	padding-top: 20px;
+}
+
+body>div.beer-review-form>form>input[type=number]:nth-child(n), body>div.beer-review-form>form>textarea,
+	body>div.beer-review-form>form>input[type=text]:nth-child(n) {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+body>div.beer-reviews>div>span:nth-child(n) {
+	color: lightgray;
+	font-size: 2.0rem;
+}
+
+.filled:before {
+	content: "\2605";
+	color: #FFC000;
+	position: absolute;
+}
+
+#currentUser {
+	text-align: right;
+	font-weight: 400;
+	color: #fff;
+}
+
+body>div.brewery-details>div {
+	margin-right: 30px;
+}
+
+body>form:nth-child(n)>input[type=submit]:nth-child(n) {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+body>form:nth-child(6)>a {
+	padding-bottom: 10px;
+}
+
+#editBeer>table {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#editBeer, body>form {
+	margin-bottom: 40px;
+}
+
+#editBeer>table>tbody>tr:nth-child(n)>th, #editBrewery>table>tbody>tr:nth-child(n)>th
+	{
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+body>a:nth-child(5) {
+	padding-bottom: 30px;
+}
+
+body>div.navigation>div>img {
+	max-width: 1440px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+body>div.navigation>nav {
+	padding-top: 10px;
+	width: 100%;
+	top: 0;
+	background-color: transparent;
+}
+
+.vertical-margin {
+	text-align: center;
+	padding-top: 45%;
+}
+
+body>div.navigation>nav>a {
+	padding-left: 45px;
+}
+
+body>div.navigation>div>img {
+	padding-top:19px;
+	position: relative;
+	width: 5%;
+	height: auto;
+}
